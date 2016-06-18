@@ -1,0 +1,8 @@
+{
+  	"name": "ppongsvr",
+  	"version": "0.0.1",
+	"scripts": {"start": "node /usr/src/app/echo.js"},
+  	"dependencies": {
+    		"express": "~2.5.9"
+  	}
+}
