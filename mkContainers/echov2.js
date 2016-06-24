@@ -8,12 +8,11 @@ const PORT=80;
 
 //We need a function which handles requests and send response
 function handleRequest(request, response){
-	
+
 	setTimeout(function() {
   		console.log('waist some time...');
-	
-		response.end('1 second ZZZzzz...Got request with path: [' + request.url + '] Responding from host: [' + hostname + '] -- v2');
-    		console.log("1 second ZZZzzz... Got request with path: [%s] Responding from host: [%s] -- v2",request.url,hostname);
+		response.end(' 1 second ZZZzzz...Got request with path: [' + request.url + '] Responding from host: [' + hostname + '] -- v2');
+    	console.log(" 1 second ZZZzzz... Got request with path: [%s] Responding from host: [%s] -- v2",request.url,hostname);
 	}, 1000);
 
 }
