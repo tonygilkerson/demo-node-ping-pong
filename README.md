@@ -1,2 +1,1 @@
-# demo-node-ping-pong
-Demos that are variation of client/server ping pong 
+This repo holdes the file needed for a demo of HA-Proxy on DC/OS.  See this projects's wiki page (https://github.com/tonygilkerson/demo-node-ping-pong/wiki) for more detail.  
