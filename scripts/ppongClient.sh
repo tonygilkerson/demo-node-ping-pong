@@ -18,7 +18,9 @@ do
 		curl -s $2 &
 	else
 		printf "\nseq [%s] date [%s]" "$i" `date +\"%Y-%m-%d_%H-%M-%S\"`
-		curl -s $2 
+		curl -s $2
+		printf "\nZZZzzz... 3 seconds..."
+		sleep 3
 	fi
 
 done
